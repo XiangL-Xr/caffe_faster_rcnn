@@ -3,7 +3,7 @@
 AITISA工作组Caffe平台基准代码(检测部分)
 
 ## 简介
-### 本仓库为增量正则化剪枝算法在检测任务(py—faster-rcnn)上的代码实现。
+### 本仓库为增量正则化剪枝算法在检测任务(py-faster-rcnn)上的代码实现
 
 ## 依赖环境
 	- ubuntu == 1604
@@ -102,9 +102,9 @@ ZF was trained at MSRA.
 
 ## 用法
 
-To train and test a Faster R-CNN detector use `experiments/scripts/faster_rcnn_end2end.sh`.
-Output log is saved in `$FRCN_ROOT/vgg16_prune_logs`.
-Output model is written underneath `$FRCN_ROOT/output`.
+1. To train and test a Faster R-CNN detector use `experiments/scripts/faster_rcnn_end2end.sh`.
+2. Output log is saved in `$FRCN_ROOT/vgg16_prune_logs`.
+3. Output model is written underneath `$FRCN_ROOT/output`.
 
 ### pruning and retraining
 
